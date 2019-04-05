@@ -1,0 +1,204 @@
+
+html, body{ 
+    margin:0; 
+    padding: 0;
+    height:100%; 
+
+}
+*{
+    margin:0; 
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,ol{
+    list-style: none;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.homepage{
+    height: 100vh;
+}
+
+.homepage .homepage-left{
+    height: 100vh;
+    width: 30%;
+    background-color: #fbfbfb;
+    position: relative;
+}
+.homepage .homepage-left .picture{
+    position: absolute;
+    vertical-align: top;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.homepage .picture img{
+    border-radius: 50%;    
+}
+.homepage .text{
+    height: 100vh;
+    width: 70%;
+    background-color: #ffffff;
+    position: relative;
+
+}
+.homepage .text .page-right{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+.homepage .text .page-right-innner{
+    padding: 0 8%;
+}
+.homepage .text .page-right .welcome{
+    background-color: #939393;
+    color: white;
+    padding: 5px 15px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+.homepage .text .page-right .triangle{
+    border: 10px solid #939393;
+    width: 0;
+    height: 0;
+    border-top: 0px;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    left: 5px;
+    top: 100%;
+}
+.homepage .text .page-right .name{
+    font-size: 65px;
+    color: #f8bb10;
+    margin-bottom: 19.6px;
+}
+.homepage .text .page-right .jobname{
+    color: #939393;
+    font-size: 20px;
+    float: left;
+}
+.jobnameAndIcon .icon{
+    list-style: none;
+}
+.jobnameAndIcon .icon li{
+    float: left;
+    background: #ededed;
+    border: 2px solid #ededed;
+    height: 34px;
+    width: 34px;
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 6px;
+}
+.jobnameAndIcon .icon a{
+    text-decoration: none;
+}
+.homepage .text .page-right hr{
+    margin-top: 12%;
+    margin-bottom: 5%;
+    height: 2px;
+    background: #ececec;
+    border: 0;
+}
+.jobnameAndIcon .icon li:nth-child(3){
+    margin-right: 0px;
+}
+.page-right .information dl dt{
+    float: left;
+    width: 25%;
+    color: #727272;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.page-right .information dl .down{
+    color: #939393;
+    font-size: 14px;
+    font-weight: normal;
+}
+section.skill{
+    height: 343px;
+}
+.skill .skill-left{
+    min-height: 100%;  
+    text-align: right;
+    width: 30%;
+    background: #f8f8f8;
+}
+.skill .skill-left .jineng{
+    margin: 61.5px 73.5px 0 0;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16.8px;
+    color: #727272;
+    font-weight: bold;
+}
+.skill .skill-right{
+    width: 70%;
+    background: #fcfcfc;
+    height: 100%;
+}
+.skill .skill-right .skill-right-innner{
+    margin: 61.5px 73.5px 61.5px 73.5px;
+}
+.skill .skill-right .skill-right-innner ul li{
+    float: left;
+    width: 45%;
+}
+.skill .skill-right .skill-right-innner ul li:nth-child(even){
+    float: right;
+    width: 45%;
+}
+.skill .skill-right .skill-right-innner ul li span{
+    font-size: 16.8px;
+    color: #727272;
+}
+.skillList .progressBar{
+    height: 5px;
+    width: 100%;
+    background: #ececec;
+    border-radius: 5%;
+    margin-top: 7.7px;
+    margin-bottom: 37.9px;
+}
+.skillList .progressBar .progress{
+    height: 5px;
+    width: 50%;
+    background: #f8bb10;
+    border-radius: 5%;
+}
+section .portfolio-left{
+    width: 30%;
+    background: #fbfbfb;
+    text-align: right;
+    height: 100%;
+}
+section .portfolio-left .zuopinji{
+    margin: 61.5px 73.5px 0 0;
+    font-size: 16.8px;
+    color: #727272;
+    font-weight: bold;
+}
+section .portfolio-right{
+    width: 70%;
+    background: #ffffff;
+    height: 100%;
+}
+section .portfolio-right .portfolio-right-innner{
+    margin: 61.5px 73.5px;
+
+}
+section .portfolio-right .portfolio-right-innner div.big{
+    margin-right: 25px;
+}
+section .portfolio-right .portfolio-right-innner div.small1{
+    margin-bottom: 25px;
+}
