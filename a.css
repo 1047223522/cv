@@ -103,7 +103,7 @@ ul,ol{
     width: 34px;
     border-radius: 3px;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
 }
 .jobnameAndIcon .media li a:hover{
     background: white;
