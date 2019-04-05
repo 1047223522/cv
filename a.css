@@ -85,20 +85,39 @@ ul,ol{
     font-size: 20px;
     float: left;
 }
-.jobnameAndIcon .icon{
+.jobnameAndIcon .media{
     list-style: none;
 }
-.jobnameAndIcon .icon li{
-    float: left;
+.jobnameAndIcon .media li{
+    float: left;    
+    height: 38px;
+    width: 38px;
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 6px;
+}
+.jobnameAndIcon .media li a{
     background: #ededed;
     border: 2px solid #ededed;
     height: 34px;
     width: 34px;
     border-radius: 3px;
-    text-align: center;
-    margin-right: 6px;
+    display: inline-block;
+    vertical-align: top;
 }
-.jobnameAndIcon .icon a{
+.jobnameAndIcon .media li a:hover{
+    background: white;
+}
+.jobnameAndIcon .media li a svg{
+    width: 30px;
+    height: 30px;
+    fill: #c6c6c6;
+    vertical-align: top;
+}
+.jobnameAndIcon .media li a svg:hover{
+    fill: #f8bb10;
+}
+.jobnameAndIcon .media a{
     text-decoration: none;
 }
 .homepage .text .page-right hr{
